@@ -1,0 +1,4 @@
+bricks:
+  hello: 0.1.0+1
+  simple_django_starter:
+    path: ./simple_django_starter
