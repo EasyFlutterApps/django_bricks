@@ -1,4 +1,7 @@
-# [Simple Django Starter](https://brickhub.dev/bricks/simple_django_starter/0.1.0+2)
+<!-- # [Simple Django Starter](https://brickhub.dev/bricks/simple_django_starter/0.1.0+2) -->
+<a href="https://brickhub.dev/bricks/simple_django_starter/0.1.0+2" style="color: #eeeeee; text-decoration: none;">
+  <h1>Simple Django Starter<h1/>  
+<a/>
 
 <div align="center">
   <img width="400" src="https://raw.githubusercontent.com/EasyFlutterApps/django_bricks/main/assets/django-logo.svg" alt="Django logo">
