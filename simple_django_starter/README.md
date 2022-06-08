@@ -1,5 +1,5 @@
 <!-- # [Simple Django Starter](https://brickhub.dev/bricks/simple_django_starter/0.1.0+2) -->
-<a href="https://brickhub.dev/bricks/simple_django_starter/0.1.0+2">
+<a >
   <h1>Simple Django Starter<h1/>  
 <a/>
 
