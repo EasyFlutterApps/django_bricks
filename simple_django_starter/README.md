@@ -1,7 +1,7 @@
 # Simple Django Starter
 
 <div align="center">
-  <img width="400" src="../assets/django-logo.svg" alt="Django logo">
+  <img width="400" src="https://raw.githubusercontent.com/EasyFlutterApps/django_bricks/main/assets/django-logo.svg" alt="Django logo">
 </div>
 
 This is ready to deploy Django Starter Template which set up all the basic requirements for a Django project.
