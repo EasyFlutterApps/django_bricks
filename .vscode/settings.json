@@ -1,5 +1,10 @@
 {
     "cSpell.words": [
+        "collectstatic",
+        "createsuperuser",
+        "getenv",
+        "makemigrations",
+        "runserver",
         "Virtualenv"
     ]
 }

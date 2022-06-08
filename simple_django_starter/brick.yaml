@@ -5,7 +5,7 @@ repository: https://github.com/EasyFlutterApps/django_bricks/tree/main/simple_dj
 # The following defines the version and build number for your brick.
 # A version number is three numbers separated by dots, like 1.2.34
 # followed by an optional build number (separated by a +).
-version: 0.1.0+1
+version: 0.1.0+2
 
 # The following defines the environment for the current brick.
 # It includes the version of mason that the brick requires.
@@ -26,3 +26,17 @@ vars:
     description: Your project name.
     default: Sample Project
     prompt: What is your django project name?
+  email:
+    type: string
+    description: Your gmail address.
+    default: example@mail.com
+    prompt: What is your email address?
+  password:
+    type: string
+    description: Your gmail password.
+    prompt: What is your email password?
+  theme:
+    type: boolean
+    description: Want to add django-admin-interface.
+    default: true
+    prompt: Want to add django-admin-interface?

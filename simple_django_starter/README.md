@@ -1,7 +1,7 @@
 # Simple Django Starter
 
 <div align="center">
-  <img width="400" src="../assets/django-logo.svg" alt="Django logo">
+  <img width="400" src="https://raw.githubusercontent.com/EasyFlutterApps/django_bricks/main/assets/django-logo.svg" alt="Django logo">
 </div>
 
 This is ready to deploy Django Starter Template which set up all the basic requirements for a Django project.
@@ -13,6 +13,7 @@ This is ready to deploy Django Starter Template which set up all the basic requi
 
 - Django 4.0 & Python 3.8
 - Ready to deploy on Heroku
+- SMTP email support
 
 ## Usage 🚀
 
@@ -24,7 +25,9 @@ mason make simple_django_starter
 
 | variable           | description                  | default | type      |
 | ------------------ | ---------------------------- | ------- | --------- |
-| `name`     | name of your project          | Simple Project   | `string`  |
+| `name`     | project name          | Simple Project   | `string`  |
+| `email`     | email address         | example@mail.com   | `string`  |
+| `password`     | email password          | Null   | `string`  |
 
 ## Prerequisites 💬
 
@@ -68,6 +71,15 @@ source venv/bin/activate
 ### Create superuser
 
     python manage.py createsuperuser
+
+### SMTP email
+
+    EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+    EMAIL_HOST = os.getenv('EMAIL_HOST', 'smtp.gmail.com')
+    EMAIL_USE_TLS = os.getenv('EMAIL_USE_TLS', True)
+    EMAIL_PORT = os.getenv('EMAIL_PORT', 587)
+    EMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER', '<email-address>')
+    EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD', '<email-password>')
 
 ## Deployment 🚀
 
