@@ -1,5 +1,6 @@
 name: django_rest_starter
 description: A new brick created with the Mason CLI.
+repository: https://github.com/EasyFlutterApps/django_bricks/tree/main/django_rest_starter
 
 # The following defines the version and build number for your brick.
 # A version number is three numbers separated by dots, like 1.2.34
@@ -23,6 +24,6 @@ environment:
 vars:
   name:
     type: string
-    description: Your name
+    description: Your project name
     default: Dash
-    prompt: What is your name?
+    prompt: What is your project name?
