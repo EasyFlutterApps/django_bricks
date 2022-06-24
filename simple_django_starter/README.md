@@ -26,8 +26,6 @@ mason make simple_django_starter
 | variable           | description                  | default | type      |
 | ------------------ | ---------------------------- | ------- | --------- |
 | `name`     | project name          | Simple Project   | `string`  |
-| `email`     | email address         | example@mail.com   | `string`  |
-| `password`     | email password          | Null   | `string`  |
 
 ## Prerequisites 💬
 
