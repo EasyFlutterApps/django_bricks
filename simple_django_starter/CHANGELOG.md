@@ -8,3 +8,9 @@
 - Added environment variables.
 - Django Admin Theme added.
 - Small Bug fixes.
+
+# 0.1.0+3
+
+- Separate Setting.py file.
+- Console Email for Debug.
+- Small Bug fixes.

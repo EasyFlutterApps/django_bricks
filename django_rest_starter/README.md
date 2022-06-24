@@ -22,7 +22,7 @@ This is ready to deploy Django Starter Template for backend development which se
 ## Usage 🚀
 
 ```
-mason make simple_django_rest_starter
+mason make django_rest_starter
 ```
 
 ## Variables ✨
