@@ -14,3 +14,7 @@
 - Separate Setting.py file.
 - Console Email for Debug.
 - Small Bug fixes.
+
+# 0.1.0+4
+
+- Small Bug fixes.
